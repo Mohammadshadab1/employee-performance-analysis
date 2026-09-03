@@ -171,7 +171,7 @@ Let's connect and discuss data analytics, business intelligence, and opportuniti
 *💼 *LinkedIn:* [Mohammad Shadab](https://www.linkedin.com/in/mohammad-shadab-550aab24b)
 *🐙 *GitHub:* [Mohammadshadab1](https://github.com/Mohammadshadab1)
 *🌐 *Portfolio:* [Mohammad Shadab Portfolio](https://myportfoliowebsite-lyart.vercel.app/)
-*📊 *Presentation Deck:* [View Executive PDF Deck](./Presentation/Presentation.pdf)
+*📊 *Presentation Deck:* [View Executive PDF Deck](./Presentation/Employee Performance Presentation.pdf)
 
 **Mohammad Shadab** — Data Analyst
 *Python · SQL · Power BI · Excel · Data Storytelling*
