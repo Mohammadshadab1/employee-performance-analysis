@@ -160,7 +160,18 @@ The full suite covers **workforce** (headcount, hiring trend 2014–2024, tenure
 
 <div align="center">
 
-### 👤 Author
+## 👤 Author & Contact Details
+
+**Mohammad Shadab** — Data Analyst
+*Python · SQL · Power BI · Excel · Data Storytelling*
+
+Let's connect and discuss data analytics, business intelligence, and opportunities!
+
+* 📧 *Email:* [jrshadab921@gmail.com](mailto:jrshadab921@gmail.com)
+* 💼 *LinkedIn:* [Mohammad Shadab](https://www.linkedin.com/in/mohammad-shadab-550aab24b)
+* 🐙 *GitHub:* [Mohammadshadab1](https://github.com/Mohammadshadab1)
+* 🌐 *Portfolio:* [Mohammad Shadab Portfolio](https://myportfoliowebsite-lyart.vercel.app/)
+* 📊 *Presentation Deck:* [View Executive PDF Deck](./Presentation/Presentation.pdf)
 
 **Mohammad Shadab** — Data Analyst
 *Python · SQL · Power BI · Excel · Data Storytelling*
