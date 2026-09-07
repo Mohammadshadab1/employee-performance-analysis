@@ -81,6 +81,9 @@ employee-performance-analysis/
 │
 ├── Charts/                  # 21 individual analysis charts (PNG)
 │
+├── Employee Report/         # Full Report Created by AI
+│   └── Employee_Analytics_Report.pdf
+│
 ├── Notebook/                # Full analysis — Jupyter notebook + PDF export
 │   ├── Employee Performance & Productivity.ipynb
 │   └── Employee Performance & Productivity.pdf
