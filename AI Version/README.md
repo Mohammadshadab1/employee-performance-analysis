@@ -44,22 +44,23 @@ Or simply run `make all`. Each build script depends only on the JSON aggregates 
 ## 🗂 Repository Layout
 
 ```
-├── data/                        # raw CSV (100k × 20)
+├── Dashboard
+│   ├──  dashboard.html          # ← open me
+│   └──  dashboard.pdf           # Coming soon
+├── assets/                      # summary.json, dashboard_data.json, vendored Chart.js
+├── charts/                      # 01…20 PNG charts
 ├── src/
 │   ├── analysis.py              # EDA, correlations, ML models, 20 charts, JSON exports
 │   ├── build_dashboard.py       # self-contained dashboard.html (Chart.js inlined)
 │   ├── build_report.py          # report.pdf  (ReportLab Platypus)
 │   ├── build_pptx.py            # presentation.pptx (python-pptx)
 │   └── build_workbook.py        # Employee_Insights.xlsx (openpyxl)
-├── charts/                      # 01…20 PNG charts
-├── assets/                      # summary.json, dashboard_data.json, vendored Chart.js
-├── dashboard.html               # ← open me
-├── dashboard.pdf
-├── report.pdf
-├── presentation.pptx
-├── presentation.pdf
 ├── Employee_Insights.xlsx
 ├── Makefile
+├── README.md
+├── report.pdf
+├── presentation.pptx
+├── presentation.pdf             # Coming soon
 └── requirements.txt
 ```
 
