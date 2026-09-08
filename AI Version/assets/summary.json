@@ -1,0 +1,323 @@
+{
+  "profile": {
+    "rows": 100000,
+    "columns": 21,
+    "missing_cells": 0,
+    "duplicate_ids": 0,
+    "departments": 9,
+    "job_titles": 7,
+    "hire_date_range": "2014-09 \u2192 2024-09"
+  },
+  "kpis": {
+    "total_employees": 100000,
+    "avg_salary": 6403.0,
+    "median_salary": 6500.0,
+    "salary_std": 1373.0,
+    "avg_performance": 3.0,
+    "high_perf_pct": 39.9,
+    "low_perf_pct": 40.1,
+    "attrition_rate": 10.01,
+    "avg_tenure": 4.5,
+    "avg_satisfaction": 3.0,
+    "avg_work_hours": 45.0,
+    "avg_overtime": 14.5,
+    "avg_training": 49.5,
+    "avg_projects": 24.4,
+    "avg_sick_days": 7.0,
+    "avg_team_size": 10.0,
+    "avg_promotions": 1.0,
+    "pct_promoted": 66.7,
+    "avg_age": 41.0
+  },
+  "correlations": {
+    "performance_top": {
+      "Monthly_Salary": 0.51,
+      "Work_Hours_Per_Week": 0.006,
+      "Team_Size": 0.005,
+      "Promotions": 0.004
+    },
+    "salary_top": {
+      "Performance_Score": 0.51,
+      "Sick_Days": 0.004,
+      "Overtime_Hours": 0.003,
+      "Team_Size": 0.003
+    },
+    "attrition_top": {
+      "Remote_Work_Frequency": 0.007,
+      "Age": 0.004,
+      "Employee_Satisfaction_Score": 0.003,
+      "Performance_Score": 0.003
+    },
+    "satisfaction_top": {
+      "Projects_Handled": 0.006,
+      "Years_At_Company": 0.003,
+      "Resigned": 0.003,
+      "Performance_Score": 0.002
+    }
+  },
+  "pay_equity": {
+    "raw_gap": -4.5,
+    "within_title_gaps": [
+      [
+        "Analyst",
+        5.3
+      ],
+      [
+        "Consultant",
+        23.1
+      ],
+      [
+        "Developer",
+        -0.7
+      ],
+      [
+        "Engineer",
+        5.5
+      ],
+      [
+        "Manager",
+        -13.9
+      ],
+      [
+        "Specialist",
+        12.9
+      ],
+      [
+        "Technician",
+        -1.0
+      ]
+    ]
+  },
+  "attrition_drivers": {
+    "Satisfaction bucket": {
+      "1\u20132 (low)": 10.02,
+      "2\u20133": 10.04,
+      "3\u20134": 10.06,
+      "4\u20135 (high)": 9.91
+    },
+    "Performance score": {
+      "1": 10.11,
+      "2": 9.95,
+      "3": 10.1,
+      "4": 10.19,
+      "5": 9.7
+    },
+    "Remote work %": {
+      "0": 9.48,
+      "25": 10.11,
+      "50": 10.0,
+      "75": 10.28,
+      "100": 10.17
+    },
+    "Promotions": {
+      "0": 10.04,
+      "1": 10.0,
+      "2": 9.99
+    },
+    "Tenure bucket": {
+      "0\u20131": 10.11,
+      "2\u20133": 9.96,
+      "4\u20135": 9.9,
+      "6\u20137": 9.88,
+      "8\u201310": 10.19
+    },
+    "Overtime bucket": {
+      "0\u20135": 9.99,
+      "6\u201310": 9.85,
+      "11\u201315": 9.85,
+      "16\u201320": 10.05,
+      "21\u201329": 10.18
+    }
+  },
+  "attrition_model": {
+    "accuracy": 0.8999,
+    "auc": 0.4901,
+    "top_risk": {
+      "Department_IT": -0.02,
+      "Job_Title_Specialist": -0.017,
+      "Employee_Satisfaction_Score": -0.013,
+      "Performance_Score": -0.012,
+      "Department_Engineering": -0.01,
+      "Job_Title_Technician": -0.009,
+      "Job_Title_Engineer": -0.008,
+      "Gender_Non-binary/Other": -0.007
+    },
+    "top_protective": {
+      "Remote_Work_Frequency": 0.033,
+      "Department_Finance": 0.023,
+      "Job_Title_Manager": 0.019,
+      "Department_Legal": 0.017,
+      "Department_HR": 0.007,
+      "Department_Marketing": 0.007,
+      "Age": 0.006,
+      "Department_Operations": 0.005
+    }
+  },
+  "rf_model": {
+    "accuracy": 0.8999,
+    "auc": 0.4904,
+    "importances": {
+      "Employee_Satisfaction_Score": 0.1163,
+      "Training_Hours": 0.0955,
+      "Projects_Handled": 0.0838,
+      "Age": 0.0796,
+      "Work_Hours_Per_Week": 0.0776,
+      "Overtime_Hours": 0.0721,
+      "Team_Size": 0.0602,
+      "Monthly_Salary": 0.0594,
+      "Sick_Days": 0.0574,
+      "Years_At_Company": 0.051
+    }
+  },
+  "salary_model": {
+    "r2": 0.9914,
+    "mae": 95.3,
+    "top_negative": {
+      "Job_Title_Technician": -648.5,
+      "Department_Engineering": -2.2,
+      "Department_Finance": -1.6,
+      "Education_Level_PhD": -1.3,
+      "Department_IT": -1.1,
+      "Promotions": -0.8
+    },
+    "top_positive": {
+      "Job_Title_Engineer": 2600.4,
+      "Job_Title_Manager": 2599.4,
+      "Job_Title_Consultant": 1950.6,
+      "Job_Title_Developer": 1300.0,
+      "Job_Title_Specialist": 649.7,
+      "Performance_Score": 492.8
+    }
+  },
+  "tables": {
+    "dept_summary": {
+      "Customer Support": {
+        "headcount": 11116,
+        "avg_salary": 6403.882,
+        "avg_perf": 2.997,
+        "attrition": 0.099,
+        "avg_satisfaction": 2.968,
+        "avg_tenure": 4.488
+      },
+      "Engineering": {
+        "headcount": 10956,
+        "avg_salary": 6417.246,
+        "avg_perf": 3.02,
+        "attrition": 0.096,
+        "avg_satisfaction": 3.003,
+        "avg_tenure": 4.489
+      },
+      "Finance": {
+        "headcount": 11200,
+        "avg_salary": 6398.576,
+        "avg_perf": 2.981,
+        "attrition": 0.105,
+        "avg_satisfaction": 3.004,
+        "avg_tenure": 4.481
+      },
+      "HR": {
+        "headcount": 10960,
+        "avg_salary": 6400.356,
+        "avg_perf": 2.997,
+        "attrition": 0.103,
+        "avg_satisfaction": 2.995,
+        "avg_tenure": 4.474
+      },
+      "IT": {
+        "headcount": 11131,
+        "avg_salary": 6414.599,
+        "avg_perf": 3.0,
+        "attrition": 0.096,
+        "avg_satisfaction": 3.023,
+        "avg_tenure": 4.436
+      },
+      "Legal": {
+        "headcount": 11118,
+        "avg_salary": 6391.275,
+        "avg_perf": 2.982,
+        "attrition": 0.102,
+        "avg_satisfaction": 2.985,
+        "avg_tenure": 4.469
+      },
+      "Marketing": {
+        "headcount": 11216,
+        "avg_salary": 6377.858,
+        "avg_perf": 2.981,
+        "attrition": 0.1,
+        "avg_satisfaction": 2.994,
+        "avg_tenure": 4.504
+      },
+      "Operations": {
+        "headcount": 11181,
+        "avg_salary": 6412.307,
+        "avg_perf": 3.007,
+        "attrition": 0.1,
+        "avg_satisfaction": 3.026,
+        "avg_tenure": 4.474
+      },
+      "Sales": {
+        "headcount": 11122,
+        "avg_salary": 6413.154,
+        "avg_perf": 2.994,
+        "attrition": 0.099,
+        "avg_satisfaction": 2.993,
+        "avg_tenure": 4.469
+      }
+    },
+    "edu_salary": {
+      "Bachelor": {
+        "mean": 6398.0,
+        "count": 50041
+      },
+      "High School": {
+        "mean": 6399.0,
+        "count": 30004
+      },
+      "Master": {
+        "mean": 6417.0,
+        "count": 14904
+      },
+      "PhD": {
+        "mean": 6432.0,
+        "count": 5051
+      }
+    },
+    "title_salary": {
+      "Analyst": {
+        "salary": 5195.821,
+        "perf": 2.99,
+        "attrition": 0.102
+      },
+      "Consultant": {
+        "salary": 7152.09,
+        "perf": 3.004,
+        "attrition": 0.101
+      },
+      "Developer": {
+        "salary": 6490.137,
+        "perf": 2.98,
+        "attrition": 0.099
+      },
+      "Engineer": {
+        "salary": 7799.325,
+        "perf": 2.999,
+        "attrition": 0.098
+      },
+      "Manager": {
+        "salary": 7798.325,
+        "perf": 2.997,
+        "attrition": 0.103
+      },
+      "Specialist": {
+        "salary": 5855.335,
+        "perf": 3.012,
+        "attrition": 0.098
+      },
+      "Technician": {
+        "salary": 4545.149,
+        "perf": 2.986,
+        "attrition": 0.1
+      }
+    }
+  }
+}
