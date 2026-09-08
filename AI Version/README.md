@@ -60,7 +60,7 @@ Or simply run `make all`. Each build script depends only on the JSON aggregates 
 ├── README.md
 ├── report.pdf
 ├── presentation.pptx
-├── presentation.pdf             # Coming soon
+├── presentation.pdf             
 └── requirements.txt
 ```
 
