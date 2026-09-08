@@ -1,27 +1,32 @@
-<div align="center">
-
-<img src="Banner/banner.jpeg" alt="Employee Performance & Productivity Analytics — Mohammad Shadab, Data Analyst" width="100%">
+![Employee Performance & Productivity Analytics — Mohammad Shadab, Data Analyst](Banner/banner.jpeg)
 
 # Employee Performance & Productivity Analytics
 
 ### 📊 100,000 Employees · 9 Departments · 2014–2024
 
-*What a decade of employee records reveals about pay, performance, attrition — and the HR myths the data dismantles.*
+_What a decade of employee records reveals about pay, performance, attrition — and the HR myths the data dismantles._
 
-[![Python](https://img.shields.io/badge/Python-Analysis-3776AB?logo=python&logoColor=white)](https://github.com/Mohammadshadab1/employee-performance-analysis/tree/main/Notebook)
-[![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?logo=powerbi&logoColor=black)](https://github.com/Mohammadshadab1/employee-performance-analysis/tree/main/Power%20BI%20pbix)
-[![Charts](https://img.shields.io/badge/Visualizations-21-f28c5b)](https://github.com/Mohammadshadab1/employee-performance-analysis/tree/main/Charts)
+[![Python](https://img.shields.io/badge/Python-Analysis-3776AB?logo=python&logoColor=white)](Notebook)
+[![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?logo=powerbi&logoColor=black)](Power%20BI%20pbix)
+[![Charts](https://img.shields.io/badge/Visualizations-21-f28c5b)](Charts)
+[![AI](https://img.shields.io/badge/AI%20Version-End--to--End%20Pipeline-8e44ad?logo=openai&logoColor=white)](AI%20Version)
 [![Data](https://img.shields.io/badge/Records-100%2C000-1f77b4)](#-dataset)
 
-</div>
+---
+
+## 🆕 What's New — `AI Version/`
+
+> A complete **AI-generated, fully reproducible analytics pipeline** now lives in [`AI Version/`](AI%20Version): an **interactive offline web dashboard**, a **16-page PDF report**, a **15-slide executive deck**, an **8-sheet insights workbook**, **20 charts**, and the **Python source** that regenerates all of it in under a minute — including **predictive models** (Logistic Regression, Random Forest, OLS) that quantify what the data can — and *cannot* — predict.
+
+Jump straight to: [🤖 AI Version section](#-ai-version--automated-end-to-end-analytics) · [📂 updated repo structure](#-repository-structure) · [▶️ how to explore](#%EF%B8%8F-how-to-explore)
 
 ---
 
 ## 📖 About
 
-An end-to-end **HR & People Analytics** project on a **100,000-employee dataset** spanning **10 years (2014–2024)** across **9 departments**. It combines Python-based exploratory analysis, a **21-chart visualisation suite**, an interactive **4-tab Power BI dashboard**, and an **animated presentation**.
+An end-to-end **HR & People Analytics** project on a **100,000-employee dataset** spanning **10 years (2014–2024)** across **9 departments**. It combines Python-based exploratory analysis, a **21-chart visualisation suite**, an interactive **4-tab Power BI dashboard**, an **animated presentation** — and now a **fully automated AI analytics pipeline** (`AI Version/`) that rebuilds every deliverable from raw CSV with two commands.
 
-The analysis delivers a counter-intuitive story: **job title is the only real driver of pay, attrition is a flat ~10% everywhere, and satisfaction scores do not predict who leaves.**
+The analysis delivers a counter-intuitive story: **job title is the only real driver of pay, attrition is a flat ~10% everywhere, and satisfaction scores do not predict who leaves.** The AI models confirm it statistically: salary is a near-perfect formula (**R² = 0.99**) while attrition is **unpredictable (AUC ≈ 0.49 — a coin flip)**.
 
 > **Author:** Mohammad Shadab — Data Analyst · Python · SQL · Power BI · Excel
 
@@ -30,17 +35,62 @@ The analysis delivers a counter-intuitive story: **job title is the only real dr
 ## 🎯 Headline Findings
 
 | # | Finding | Evidence |
-|---|---------|----------|
+| --- | --- | --- |
 | 1️⃣ | **Job title is the only real pay lever** | Engineers/Managers ≈ **$7,799** vs Technicians **$4,545** → **72% gap** |
 | 2️⃣ | **Education barely affects pay** | PhD $6,431 vs Bachelor $6,398 → just **0.52%** (~$1/day) |
 | 3️⃣ | **Gender pay equity is achieved** | $6,400–$6,415 across groups → **~0.2% gap** (a win to protect) |
 | 4️⃣ | **Tenure is not rewarded** | Year 0 earns $6,402; Year 10 earns **$6,348** (flat → down) |
-| 5️⃣ | **Performance ratings are noise** | ~20,000 employees in *every* score bucket (1–5) |
+| 5️⃣ | **Performance ratings are noise** | ~20,000 employees in _every_ score bucket (1–5) |
 | 6️⃣ | **Training doesn't move performance** | 49.28–49.70 training hours at every rating (25-min range) |
 | 7️⃣ | **Satisfaction doesn't predict attrition** | Stayed **3.00** vs Resigned **2.99** — no signal |
 | 8️⃣ | **Attrition is a flat 10.01% everywhere** | Department, education & remote work all within ~1 point |
 | 9️⃣ | **Only meaningful correlation** | Performance ↔ Salary **r = 0.51** — all others ≈ 0.00 |
 | 🔟 | **2024 shock** | Hiring dropped **31%** (10.0K → 6.9K) |
+| 1️⃣1️⃣ | **Pay is literally a formula** | OLS on title + performance: **R² = 0.991**, +$493/mo per rating point — dept, gender, education add ≈ $0 |
+| 1️⃣2️⃣ | **🆕 Attrition is mathematically unpredictable** | Logistic Regression & Random Forest both **AUC ≈ 0.49** (coin flip); 90% accuracy is just the majority-class baseline |
+
+---
+
+## 🤖 AI Version — Automated End-to-End Analytics
+
+Everything in [`AI Version/`](AI%20Version) is generated by a deterministic Python pipeline: **raw CSV → EDA + models → charts → dashboard → PDF report → PPTX deck → workbook**. Seed-fixed (42), dependency-pinned, rebuildable with `make all`.
+
+### 📦 Deliverables inside `AI Version/`
+
+| File | What it is |
+| --- | --- |
+| [`dashboard.html`](AI%20Version/dashboard.html) | **Interactive dashboard** — 13 Chart.js charts, department filter, KPI cards, findings panel. **Fully self-contained & offline** (data + JS inlined). Just open in a browser. |
+| [`report.pdf`](AI%20Version/report.pdf) | **16-page analytical report** — exec summary, compensation & equity, performance, attrition modelling, recommendations, methodology, data dictionary. |
+| [`presentation.pptx`](AI%20Version/presentation.pptx) | **15-slide 16:9 executive deck** — KPIs, pay formula, honest ML negative result, recommendations. |
+| [`Employee_Insights.xlsx`](AI%20Version/Employee_Insights.xlsx) | **8-sheet workbook** — KPIs, dept/title summaries, pay equity, attrition drivers, model results, correlations, data dictionary. |
+| [`charts/`](AI%20Version/charts) | **20 publication-quality PNG charts** (workforce, pay, equity, performance, attrition, models). |
+| [`src/`](AI%20Version/src) | **The pipeline** — `analysis.py` + 4 builders; every number in every deliverable is reproducible. |
+| [`data/`](AI%20Version/data) | Raw CSV (100,000 × 20). |
+
+### 🧪 What the AI pipeline adds beyond the manual analysis
+
+- **Predictive modelling** — Logistic Regression + Random Forest for attrition; OLS for salary (80/20 stratified split, seed 42, accuracy **and** ROC AUC reported honestly).
+- **Quantified pay-equity audit** — raw *and* within-job-title gender gaps (all ≤ ±$25 / <0.4%).
+- **An offline interactive dashboard** — a web companion to the Power BI dashboard that runs anywhere, no licence needed.
+- **One-command regeneration** — plug in a fresh extract and the whole reporting pack rebuilds.
+
+```bash
+cd "AI Version"
+pip install -r requirements.txt
+python3 src/analysis.py          # EDA + models → charts/, assets/*.json
+python3 src/build_dashboard.py   # → dashboard.html
+python3 src/build_report.py      # → report.pdf
+python3 src/build_pptx.py        # → presentation.pptx
+python3 src/build_workbook.py    # → Employee_Insights.xlsx
+# …or simply: make all
+```
+
+|     |     |
+| --- | --- |
+| **Attrition is flat in every segment** (`AI Version/charts/12_attrition_drivers.png`) | **One real correlation: salary ↔ performance** (`AI Version/charts/06_correlation_heatmap.png`) |
+| [![](https://github.com/Mohammadshadab1/employee-performance-analysis/raw/main/AI%20Version/charts/12_attrition_drivers.png)](https://github.com/Mohammadshadab1/employee-performance-analysis/blob/main/AI%20Version/charts/12_attrition_drivers.png) | [![](https://github.com/Mohammadshadab1/employee-performance-analysis/raw/main/AI%20Version/charts/06_correlation_heatmap.png)](https://github.com/Mohammadshadab1/employee-performance-analysis/blob/main/AI%20Version/charts/06_correlation_heatmap.png) |
+| **Gender pay equity: no gap to remediate** (`AI Version/charts/10_gender_pay_equity.png`) | **ML honesty check: AUC ≈ 0.49** (`AI Version/charts/17_attrition_model.png`) |
+| [![](https://github.com/Mohammadshadab1/employee-performance-analysis/raw/main/AI%20Version/charts/10_gender_pay_equity.png)](https://github.com/Mohammadshadab1/employee-performance-analysis/blob/main/AI%20Version/charts/10_gender_pay_equity.png) | [![](https://github.com/Mohammadshadab1/employee-performance-analysis/raw/main/AI%20Version/charts/17_attrition_model.png)](https://github.com/Mohammadshadab1/employee-performance-analysis/blob/main/AI%20Version/charts/17_attrition_model.png) |
 
 ---
 
@@ -48,26 +98,14 @@ The analysis delivers a counter-intuitive story: **job title is the only real dr
 
 Four tabs covering the full workforce story:
 
-<table>
-  <tr>
-    <td align="center"><b>1 · Overview</b><br>Headcount, hiring trend, demographics</td>
-    <td align="center"><b>2 · Compensation</b><br>Pay across role, education & gender</td>
-  </tr>
-  <tr>
-    <td><img src="Powe%20BI%20Dashboard/1.%20Overview.png" width="100%"></td>
-    <td><img src="Powe%20BI%20Dashboard/2.%20Compensation.png" width="100%"></td>
-  </tr>
-  <tr>
-    <td align="center"><b>3 · Performance</b><br>Ratings, training, tenure</td>
-    <td align="center"><b>4 · Attrition & Satisfaction</b><br>Turnover drivers & the satisfaction paradox</td>
-  </tr>
-  <tr>
-    <td><img src="Powe%20BI%20Dashboard/3.%20Performance.png" width="100%"></td>
-    <td><img src="Powe%20BI%20Dashboard/4.%20Attrition%20%26%20Satisfaction.png" width="100%"></td>
-  </tr>
-</table>
+|     |     |
+| --- | --- |
+| **1 · Overview**<br>Headcount, hiring trend, demographics | **2 · Compensation**<br>Pay across role, education & gender |
+| [![](https://github.com/Mohammadshadab1/employee-performance-analysis/raw/main/Powe%20BI%20Dashboard/1.%20Overview.png)](https://github.com/Mohammadshadab1/employee-performance-analysis/blob/main/Powe%20BI%20Dashboard/1.%20Overview.png) | [![](https://github.com/Mohammadshadab1/employee-performance-analysis/raw/main/Powe%20BI%20Dashboard/2.%20Compensation.png)](https://github.com/Mohammadshadab1/employee-performance-analysis/blob/main/Powe%20BI%20Dashboard/2.%20Compensation.png) |
+| **3 · Performance**<br>Ratings, training, tenure | **4 · Attrition & Satisfaction**<br>Turnover drivers & the satisfaction paradox |
+| [![](https://github.com/Mohammadshadab1/employee-performance-analysis/raw/main/Powe%20BI%20Dashboard/3.%20Performance.png)](https://github.com/Mohammadshadab1/employee-performance-analysis/blob/main/Powe%20BI%20Dashboard/3.%20Performance.png) | [![](https://github.com/Mohammadshadab1/employee-performance-analysis/raw/main/Powe%20BI%20Dashboard/4.%20Attrition%20%26%20Satisfaction.png)](https://github.com/Mohammadshadab1/employee-performance-analysis/blob/main/Powe%20BI%20Dashboard/4.%20Attrition%20%26%20Satisfaction.png) |
 
-📁 Open the live dashboard: **[`Power BI pbix/Employee Performance & Productivity Dashboard.pbix`](https://github.com/Mohammadshadab1/employee-performance-analysis/blob/main/Power%20BI%20pbix/Employee%20Performance%20%26%20Productivity%20Dashboard.pbix)** in Power BI Desktop.
+📁 Open the live dashboard: **[`Power BI pbix/Employee Performance & Productivity Dashboard.pbix`](Power%20BI%20pbix/Employee%20Performance%20%26%20Productivity%20Dashboard.pbix)** in Power BI Desktop.
 
 ---
 
@@ -75,6 +113,18 @@ Four tabs covering the full workforce story:
 
 ```
 employee-performance-analysis/
+│
+├── AI Version/              # 🆕 Full AI-generated end-to-end pipeline
+│   ├── dashboard.html       #   interactive offline dashboard (Chart.js inlined)
+│   ├── report.pdf           #   16-page analytical report
+│   ├── presentation.pptx    #   15-slide executive deck
+│   ├── Employee_Insights.xlsx  # 8-sheet insights workbook
+│   ├── README.md            #   folder-level docs
+│   ├── Makefile · requirements.txt · LICENSE · .gitignore
+│   ├── data/                #   raw CSV (100k × 20)
+│   ├── src/                 #   analysis.py + 4 build scripts
+│   ├── charts/              #   20 PNG charts
+│   └── assets/              #   JSON aggregates + vendored Chart.js
 │
 ├── Banner/                  # Project banner
 │   └── banner.jpeg
@@ -108,20 +158,14 @@ employee-performance-analysis/
 
 ## 📈 Key Visualizations
 
-A few of the **21 charts** in [`Charts/`](https://github.com/Mohammadshadab1/employee-performance-analysis/tree/main/Charts):
+A few of the **21 charts** in [`Charts/`](Charts):
 
-<table>
-  <tr>
-    <td align="center"><b>Average Salary by Job Title — the 72% gap</b></td>
-    <td align="center"><b>Satisfaction: Stayed vs Resigned — 3.00 vs 2.99</b></td>
-  </tr>
-  <tr>
-    <td><img src="Charts/05_avg_monthly_salary_by_job.png" width="100%"></td>
-    <td><img src="Charts/09_avg_satisfaction_resignation.png" width="100%"></td>
-  </tr>
-</table>
+|     |     |
+| --- | --- |
+| **Average Salary by Job Title — the 72% gap** | **Satisfaction: Stayed vs Resigned — 3.00 vs 2.99** |
+| [![](https://github.com/Mohammadshadab1/employee-performance-analysis/raw/main/Charts/05_avg_monthly_salary_by_job.png)](https://github.com/Mohammadshadab1/employee-performance-analysis/blob/main/Charts/05_avg_monthly_salary_by_job.png) | [![](https://github.com/Mohammadshadab1/employee-performance-analysis/raw/main/Charts/09_avg_satisfaction_resignation.png)](https://github.com/Mohammadshadab1/employee-performance-analysis/blob/main/Charts/09_avg_satisfaction_resignation.png) |
 
-The full suite covers **workforce** (headcount, hiring trend 2014–2024, tenure), **compensation** (salary by department / education / job title / gender, experience vs salary), **performance** (score distribution, training hours, ratings by job & education), **attrition** (by department / education / remote frequency), and **correlation matrices**.
+The full suite covers **workforce** (headcount, hiring trend 2014–2024, tenure), **compensation** (salary by department / education / job title / gender, experience vs salary), **performance** (score distribution, training hours, ratings by job & education), **attrition** (by department / education / remote frequency), and **correlation matrices**. The `AI Version/charts/` suite (20 charts) extends it with **predictive-model visualisations** (coefficient plots, feature importances) and a **six-panel attrition-driver grid**.
 
 ---
 
@@ -131,10 +175,12 @@ The full suite covers **workforce** (headcount, hiring trend 2014–2024, tenure
 2. **Descriptive analytics** — aggregates across department, education, gender, job title, tenure & age
 3. **Attrition analysis** — resignation rates per segment incl. remote-work frequency curve
 4. **Correlation analysis** — Pearson matrices across 6 & 15 numeric features (only Performance ↔ Salary survives: **r = 0.51**)
-5. **Storytelling & visualisation** — 21 charts, interactive 4-tab Power BI dashboard, animated slide deck
+5. **🆕 Predictive modelling (AI Version)** — Logistic Regression (scaled, C=0.5) & Random Forest (250 trees, depth 8) for attrition; OLS for salary; 80/20 stratified split, seed 42; accuracy **and** ROC AUC reported
+6. **Storytelling & visualisation** — 21 charts, interactive 4-tab Power BI dashboard, animated slide deck, plus the automated AI pack (offline dashboard, PDF report, deck, workbook)
 
 ### 🛠 Tools & Skills
-`Python` · `pandas` · `NumPy` · `matplotlib` · `seaborn` · `Jupyter Notebook` · `Power BI` · `EDA` · `Correlation Analysis` · `Data Storytelling`
+
+`Python` · `pandas` · `NumPy` · `matplotlib` · `seaborn` · `scikit-learn` · `Jupyter Notebook` · `Power BI` · `EDA` · `Correlation Analysis` · `Predictive Modelling` · `ReportLab` · `python-pptx` · `openpyxl` · `Chart.js` · `Data Storytelling`
 
 ---
 
@@ -142,45 +188,47 @@ The full suite covers **workforce** (headcount, hiring trend 2014–2024, tenure
 
 1. **Rebuild job levelling & publish salary bands** — the 72% title gap is the entire pay story
 2. **Price tenure into compensation** — year-10 staff currently earn the least
-3. **Rebuild the churn early-warning system** — satisfaction predicts nothing; add intent-to-stay signals + a leavers model
+3. **Rebuild the churn early-warning system** — satisfaction predicts nothing; add intent-to-stay signals + a leavers model *(the AI pipeline quantifies this: AUC 0.49 on current fields — fix exit-interview capture first, then re-run `AI Version/src/analysis.py`)*
 4. **Target training, don't ration it equally** — measure rating lift vs a control group
 5. **Calibrate performance reviews** — uniform ratings drive pay (r = 0.51) yet carry no information
 6. **Investigate the 2024 anomaly** — 31% hiring drop + peak hybrid attrition; start with Finance (10.54%)
+7. **🆕 Automate the monitor** — `AI Version/` rebuilds every deliverable in < 1 min; schedule it against production extracts and re-audit pay equity quarterly (gaps are <0.4% today — keep it that way)
 
 ---
 
 ## ▶️ How to Explore
 
 | Want to… | Open |
-|---|---|
+| --- | --- |
 | Interact with the dashboard | `Power BI pbix/…pbix` in **Power BI Desktop** |
+| Explore in any browser (no tools needed) | 🆕 `AI Version/dashboard.html` — works offline |
 | Read the analysis & code | `Notebook/Employee Performance & Productivity.ipynb` |
+| Read the AI-generated deep-dive | 🆕 `AI Version/report.pdf` (16 pp) |
 | Present the story | `Presentation/` — **PPTX** (auto-play animations) or **PDF** |
-| View individual charts | [`Charts/`](https://github.com/Mohammadshadab1/employee-performance-analysis/tree/main/Charts) folder |
+| Present the executive cut | 🆕 `AI Version/presentation.pptx` (15 slides) |
+| Get the numbers in Excel | 🆕 `AI Version/Employee_Insights.xlsx` (8 sheets) |
+| View individual charts | [`Charts/`](Charts) folder + 🆕 [`AI Version/charts/`](AI%20Version/charts) |
+| Rebuild everything from raw data | 🆕 `AI Version/` — `make all` |
 | Get the data | `Dataset.zip` |
 
 ---
 
-<div align="center">
-
 ## 👤 Author & Contact Details
 
 **Mohammad Shadab** — Data Analyst
-*Python · SQL · Power BI · Excel · Data Storytelling*
+_Python · SQL · Power BI · Excel · Data Storytelling_
 
 Let's connect and discuss data analytics, business intelligence, and opportunities!
 
-* 📧 *Email:* [jrshadab921@gmail.com](mailto:jrshadab921@gmail.com)
-* 💼 *LinkedIn:* [Mohammad Shadab](https://www.linkedin.com/in/mohammad-shadab-550aab24b)
-* 🐙 *GitHub:* [Mohammadshadab1](https://github.com/Mohammadshadab1)
-* 🌐 *Portfolio:* [Mohammad Shadab Portfolio](https://myportfoliowebsite-lyart.vercel.app/)
-* 📊 *Presentation Deck:* [View Executive PDF Deck](./Presentation/Presentation.pdf)
+- 📧 _Email:_ [jrshadab921@gmail.com](mailto:jrshadab921@gmail.com)
+- 💼 _LinkedIn:_ [Mohammad Shadab](https://www.linkedin.com/in/mohammad-shadab-550aab24b)
+- 🐙 _GitHub:_ [Mohammadshadab1](https://github.com/Mohammadshadab1)
+- 🌐 _Portfolio:_ [Mohammad Shadab Portfolio](https://myportfoliowebsite-lyart.vercel.app/)
+- 📊 _Presentation Deck:_ [View Executive PDF Deck](https://github.com/Mohammadshadab1/employee-performance-analysis/blob/main/Presentation/Presentation.pdf)
 
 **Mohammad Shadab** — Data Analyst
-*Python · SQL · Power BI · Excel · Data Storytelling*
+_Python · SQL · Power BI · Excel · Data Storytelling_
 
 Feedback, questions and collaboration welcome — feel free to connect!
 
 ⭐ **If you find this project useful, please give it a star!** ⭐
-
-</div>
