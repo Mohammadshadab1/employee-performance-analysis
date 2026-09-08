@@ -46,7 +46,7 @@ Or simply run `make all`. Each build script depends only on the JSON aggregates 
 ```
 ├── Dashboard
 │   ├──  dashboard.html          # ← open me
-│   └──  dashboard.pdf           # Coming soon
+│   └──  dashboard.pdf           
 ├── assets/                      # summary.json, dashboard_data.json, vendored Chart.js
 ├── charts/                      # 01…20 PNG charts
 ├── src/
