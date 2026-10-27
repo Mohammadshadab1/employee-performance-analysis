@@ -1,0 +1,190 @@
+Department,Gender,"Job Title",Head_count,Distribution_Percentage
+"Customer Support",Female,Analyst,722,0.72
+"Customer Support",Other,Analyst,68,0.07
+"Customer Support",Male,Analyst,792,0.79
+"Customer Support",Female,Consultant,722,0.72
+"Customer Support",Other,Consultant,48,0.05
+"Customer Support",Male,Consultant,788,0.79
+"Customer Support",Other,Developer,55,0.06
+"Customer Support",Female,Developer,765,0.77
+"Customer Support",Male,Developer,800,0.80
+"Customer Support",Male,Engineer,777,0.78
+"Customer Support",Other,Engineer,55,0.06
+"Customer Support",Female,Engineer,738,0.74
+"Customer Support",Female,Manager,782,0.78
+"Customer Support",Male,Manager,751,0.75
+"Customer Support",Other,Manager,52,0.05
+"Customer Support",Female,Specialist,785,0.79
+"Customer Support",Other,Specialist,55,0.06
+"Customer Support",Male,Specialist,790,0.79
+"Customer Support",Male,Technician,788,0.79
+"Customer Support",Female,Technician,726,0.73
+"Customer Support",Other,Technician,57,0.06
+Engineering,Female,Analyst,744,0.74
+Engineering,Other,Analyst,58,0.06
+Engineering,Male,Analyst,765,0.77
+Engineering,Female,Consultant,735,0.74
+Engineering,Male,Consultant,716,0.72
+Engineering,Other,Consultant,67,0.07
+Engineering,Female,Developer,764,0.76
+Engineering,Other,Developer,57,0.06
+Engineering,Male,Developer,765,0.77
+Engineering,Male,Engineer,741,0.74
+Engineering,Other,Engineer,64,0.06
+Engineering,Female,Engineer,761,0.76
+Engineering,Female,Manager,762,0.76
+Engineering,Other,Manager,56,0.06
+Engineering,Male,Manager,739,0.74
+Engineering,Other,Specialist,66,0.07
+Engineering,Female,Specialist,764,0.76
+Engineering,Male,Specialist,824,0.82
+Engineering,Female,Technician,699,0.70
+Engineering,Other,Technician,66,0.07
+Engineering,Male,Technician,743,0.74
+Finance,Male,Analyst,762,0.76
+Finance,Female,Analyst,758,0.76
+Finance,Other,Analyst,49,0.05
+Finance,Female,Consultant,778,0.78
+Finance,Male,Consultant,794,0.79
+Finance,Other,Consultant,68,0.07
+Finance,Female,Developer,812,0.81
+Finance,Male,Developer,716,0.72
+Finance,Other,Developer,65,0.07
+Finance,Other,Engineer,83,0.08
+Finance,Female,Engineer,734,0.73
+Finance,Male,Engineer,744,0.74
+Finance,Male,Manager,794,0.79
+Finance,Other,Manager,68,0.07
+Finance,Female,Manager,752,0.75
+Finance,Male,Specialist,787,0.79
+Finance,Female,Specialist,765,0.77
+Finance,Other,Specialist,68,0.07
+Finance,Female,Technician,782,0.78
+Finance,Other,Technician,69,0.07
+Finance,Male,Technician,752,0.75
+HR,Female,Analyst,752,0.75
+HR,Other,Analyst,67,0.07
+HR,Male,Analyst,736,0.74
+HR,Female,Consultant,745,0.75
+HR,Other,Consultant,66,0.07
+HR,Male,Consultant,763,0.76
+HR,Other,Developer,70,0.07
+HR,Female,Developer,771,0.77
+HR,Male,Developer,755,0.76
+HR,Male,Engineer,710,0.71
+HR,Female,Engineer,762,0.76
+HR,Other,Engineer,65,0.07
+HR,Male,Manager,777,0.78
+HR,Other,Manager,64,0.06
+HR,Female,Manager,727,0.73
+HR,Male,Specialist,704,0.70
+HR,Female,Specialist,755,0.76
+HR,Other,Specialist,72,0.07
+HR,Female,Technician,748,0.75
+HR,Male,Technician,776,0.78
+HR,Other,Technician,75,0.08
+IT,Female,Analyst,719,0.72
+IT,Male,Analyst,830,0.83
+IT,Other,Analyst,63,0.06
+IT,Male,Consultant,784,0.78
+IT,Female,Consultant,732,0.73
+IT,Other,Consultant,81,0.08
+IT,Other,Developer,46,0.05
+IT,Female,Developer,744,0.74
+IT,Male,Developer,743,0.74
+IT,Other,Engineer,79,0.08
+IT,Female,Engineer,750,0.75
+IT,Male,Engineer,730,0.73
+IT,Male,Manager,775,0.78
+IT,Female,Manager,812,0.81
+IT,Other,Manager,69,0.07
+IT,Male,Specialist,761,0.76
+IT,Female,Specialist,812,0.81
+IT,Other,Specialist,48,0.05
+IT,Male,Technician,743,0.74
+IT,Female,Technician,746,0.75
+IT,Other,Technician,64,0.06
+Legal,Female,Analyst,775,0.78
+Legal,Other,Analyst,64,0.06
+Legal,Male,Analyst,784,0.78
+Legal,Other,Consultant,68,0.07
+Legal,Female,Consultant,793,0.79
+Legal,Male,Consultant,733,0.73
+Legal,Female,Developer,776,0.78
+Legal,Male,Developer,733,0.73
+Legal,Other,Developer,62,0.06
+Legal,Other,Engineer,60,0.06
+Legal,Male,Engineer,733,0.73
+Legal,Female,Engineer,759,0.76
+Legal,Other,Manager,58,0.06
+Legal,Male,Manager,762,0.76
+Legal,Female,Manager,770,0.77
+Legal,Other,Specialist,57,0.06
+Legal,Male,Specialist,785,0.79
+Legal,Female,Specialist,763,0.76
+Legal,Female,Technician,765,0.77
+Legal,Male,Technician,762,0.76
+Legal,Other,Technician,56,0.06
+Marketing,Female,Analyst,814,0.81
+Marketing,Other,Analyst,65,0.07
+Marketing,Male,Analyst,769,0.77
+Marketing,Other,Consultant,71,0.07
+Marketing,Female,Consultant,720,0.72
+Marketing,Male,Consultant,761,0.76
+Marketing,Male,Developer,714,0.71
+Marketing,Female,Developer,745,0.75
+Marketing,Other,Developer,53,0.05
+Marketing,Female,Engineer,816,0.82
+Marketing,Male,Engineer,755,0.76
+Marketing,Other,Engineer,66,0.07
+Marketing,Male,Manager,775,0.78
+Marketing,Female,Manager,756,0.76
+Marketing,Other,Manager,50,0.05
+Marketing,Other,Specialist,65,0.07
+Marketing,Male,Specialist,786,0.79
+Marketing,Female,Specialist,753,0.75
+Marketing,Other,Technician,66,0.07
+Marketing,Male,Technician,823,0.82
+Marketing,Female,Technician,793,0.79
+Operations,Female,Analyst,745,0.75
+Operations,Other,Analyst,70,0.07
+Operations,Male,Analyst,750,0.75
+Operations,Male,Consultant,794,0.79
+Operations,Female,Consultant,727,0.73
+Operations,Other,Consultant,69,0.07
+Operations,Male,Developer,729,0.73
+Operations,Female,Developer,757,0.76
+Operations,Other,Developer,54,0.05
+Operations,Male,Engineer,769,0.77
+Operations,Female,Engineer,799,0.80
+Operations,Other,Engineer,65,0.07
+Operations,Female,Manager,776,0.78
+Operations,Other,Manager,62,0.06
+Operations,Male,Manager,769,0.77
+Operations,Other,Specialist,60,0.06
+Operations,Male,Specialist,784,0.78
+Operations,Female,Specialist,767,0.77
+Operations,Other,Technician,64,0.06
+Operations,Female,Technician,827,0.83
+Operations,Male,Technician,744,0.74
+Sales,Male,Analyst,753,0.75
+Sales,Female,Analyst,724,0.72
+Sales,Other,Analyst,63,0.06
+Sales,Other,Consultant,52,0.05
+Sales,Female,Consultant,802,0.80
+Sales,Male,Consultant,733,0.73
+Sales,Other,Developer,61,0.06
+Sales,Female,Developer,779,0.78
+Sales,Male,Developer,804,0.80
+Sales,Female,Engineer,777,0.78
+Sales,Male,Engineer,761,0.76
+Sales,Other,Engineer,64,0.06
+Sales,Female,Manager,747,0.75
+Sales,Other,Manager,70,0.07
+Sales,Male,Manager,750,0.75
+Sales,Female,Specialist,788,0.79
+Sales,Other,Specialist,68,0.07
+Sales,Male,Specialist,775,0.78
+Sales,Other,Technician,62,0.06
+Sales,Male,Technician,726,0.73
+Sales,Female,Technician,763,0.76

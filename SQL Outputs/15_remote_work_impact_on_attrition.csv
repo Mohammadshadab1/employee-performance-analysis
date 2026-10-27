@@ -1,0 +1,4 @@
+WorK_Mode,Employee_Count,AVG_Employee_Satisfaction,AVG_Work_Hrs_Per_Week,AVG_Overtime_Hrs,resigned_count,Attrition_rate%
+"On Site",19837,2.99,45.08,14.57,1881,9.48
+"Fully Remote",20049,2.99,44.94,14.43,2038,10.17
+HyBrid,60114,3,44.92,14.52,6091,10.13

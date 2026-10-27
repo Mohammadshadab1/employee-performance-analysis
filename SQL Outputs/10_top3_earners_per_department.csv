@@ -1,0 +1,28 @@
+Department,"Employee ID","Monthly Salary",rn
+"Customer Support",99624,9000,1
+"Customer Support",99752,9000,2
+"Customer Support",99924,9000,3
+Engineering,50742,9000,1
+Engineering,48362,9000,2
+Engineering,48744,9000,3
+Finance,24565,9000,1
+Finance,24681,9000,2
+Finance,22286,9000,3
+HR,99728,9000,1
+HR,99911,9000,2
+HR,99533,9000,3
+IT,50725,9000,1
+IT,49531,9000,2
+IT,48885,9000,3
+Legal,23321,9000,1
+Legal,23331,9000,2
+Legal,23589,9000,3
+Marketing,89151,9000,1
+Marketing,89066,9000,2
+Marketing,89147,9000,3
+Operations,50045,9000,1
+Operations,49210,9000,2
+Operations,50369,9000,3
+Sales,23763,9000,1
+Sales,25126,9000,2
+Sales,23473,9000,3

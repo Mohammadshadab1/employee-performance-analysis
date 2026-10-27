@@ -1,0 +1,5 @@
+Training_Tier,Headcount,AVG_Training_HRS,AVG_Performance_Score,AVG_Promotion,Top_Performer_Pct,Promoted_Employee_Pct
+"1. Low Training (<20)",20053,9.44,3.00,1.00,39.99,100.00
+"2. Moderate (20-49)",30086,34.65,2.99,1.00,39.59,100.00
+"3. High (50-79)",29830,64.54,2.99,1.00,39.84,100.00
+"4. Extensive (80+)",20031,89.53,3.01,1.00,40.20,100.00

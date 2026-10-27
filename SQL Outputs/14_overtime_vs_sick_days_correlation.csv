@@ -1,0 +1,5 @@
+overtime_tier,Employee_Count,AVG_Sick_Days,Min_Sick_Days,Max_Sick_Days
+"Extreme (>25 Hours)",13429,7.05,0,14
+"Moderate (11-25 Hours)",49986,7.00,0,14
+"Low (1-10 Hours)",33259,7.00,0,14
+"No Overtime (0 Hours)",3326,7.00,0,14

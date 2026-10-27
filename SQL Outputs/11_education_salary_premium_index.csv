@@ -1,0 +1,5 @@
+"Education Level",AVG_Monthly_Salary,MIN_Monthly_Salary,MAX_Monthly_Salary,Salary_difference%
+"High School",6399,3850,9000,1
+Bachelor,6398,3850,9000,1
+Master,6417,3850,9000,1.003
+PhD,6432,3850,9000,1.005
